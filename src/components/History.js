@@ -4,7 +4,8 @@ import { Box, Card, CardBody, Heading, Image, List, Text } from 'grommet';
 import ricecake from '../images/ricecake.jpeg';
 import zorro from '../images/zorro.jpeg';
 
-const URL = "http://smartlitterrobot-env-1.eba-kiu2bdfx.us-east-1.elasticbeanstalk.com/";
+// const URL = "http://smartlitterrobot-env-1.eba-kiu2bdfx.us-east-1.elasticbeanstalk.com/";
+const URL = "https://robotserver.molingguo.com"
 // const URL = "http://127.0.0.1:5000/"
 
 const CAT_MAP = {
