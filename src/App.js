@@ -6,8 +6,9 @@ import { theme } from './theme';
 import { CatInfo } from './components/CatInfo';
 import { StatusBoard } from './components/StatusBoard';
 
-const URL = "https://robotserver.molingguo.com"
+// const URL = "https://robotserver.molingguo.com"
 // const URL = "http://127.0.0.1:5000/"
+const URL = "https://orca-app-ornpd.ondigitalocean.app/";
 
 const AppBar = (props) => (
   <Box
