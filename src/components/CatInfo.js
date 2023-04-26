@@ -4,8 +4,8 @@ import ricecake from '../images/ricecake.jpeg';
 import zorro from '../images/zorro.jpeg';
 
 const CAT_MAP = {
-  ricecake: 15.5,
-  zorro: 12
+  ricecake: 16,
+  zorro: 12.5
 };
 
 const logCatRecord = function(dict, historyData, weight, cat) {
