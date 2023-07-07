@@ -4,12 +4,12 @@ import ricecake from '../images/ricecake.jpeg';
 import zorro from '../images/zorro.jpeg';
 
 const CAT_MAP = {
-  ricecake: 16,
+  ricecake: 16.5,
   zorro: 12.5
 };
 
 const logCatRecord = function(dict, historyData, weight, cat) {
-  if (Math.abs(weight - CAT_MAP[cat]) <= 1) {
+  if (Math.abs(weight - CAT_MAP[cat]) <= 2) {
     const dateString = new Date(historyData.timestamp).toLocaleDateString();
     if (!dict[cat]) dict[cat] = {};
     if (!dict[cat][dateString]) dict[cat][dateString] = 0;
